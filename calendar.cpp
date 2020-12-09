@@ -118,7 +118,7 @@ int mainCalendar() {
             printf("# Invailed Year !\n");
             break;
         }
-        printf("* Enter Year : : ");
+        printf("* Enter Month : ");
         scanf("%d", &month);
         if (1 > month || month > 12) {
             printf("# Invailed Month !\n");
