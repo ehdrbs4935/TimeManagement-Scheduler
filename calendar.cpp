@@ -97,7 +97,7 @@ int mainCalendar() {
         break;
 
     case 2:
-        printf("* Enter Year(연도를 입력하세요.) : ");
+        printf("* Enter Year : ");
         scanf("%d", &year);
         if (year < 1900) {
             printf("# Invailed Year ! \n");
@@ -112,13 +112,13 @@ int mainCalendar() {
         break;
 
     case 3:
-        printf("* Enter Year : ");
+        printf("* Enter Year(연도를 입력하세요.) : ");
         scanf("%d", &year);
         if (year < 1900) {
             printf("# Invailed Year !\n");
             break;
         }
-        printf("* Enter Month : ");
+        printf("* Enter Month(월을 입력하세요.) : ");
         scanf("%d", &month);
         if (1 > month || month > 12) {
             printf("# Invailed Month !\n");
