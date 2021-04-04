@@ -97,7 +97,7 @@ int mainCalendar() {
         break;
 
     case 2:
-        printf("* Enter Year : ");
+        printf("* Enter Year(연도를 입력하세요.) : ");
         scanf("%d", &year);
         if (year < 1900) {
             printf("# Invailed Year ! \n");
